@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>SmartCash-Ng</title>
+</head>
+
+<body>
+    <main class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-md bg-white navbar-light fixed-top">
+                <div class="container fm-1">
+                    <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                        style="height: 3rem;width: 3.5rem;">
+                        <img src="./assets/images/menu.svg" alt="SmartCash-Menu" style="width: 30px;">
+                    </div>
+                    <a class="navbar-brand me-auto pe-5" href="#"><img src="./assets/images/logo.svg"
+                            alt="SmartCash-Logo" style="width: 185px;"></a>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products & Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Locate an agent</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Help & Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Become an Agent</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <article class="container">
+                <div class="container border border-bottom-0 p-4 pb-1 bg-light">
+                    <h4>Want to become an agent?</h4>
+                    <p>Fill the below form to get your journey started as a Smartcash Agent!
+                    </p>
+                </div>
+                <form class="container border border-top-0 p-4 g-4">
+                    <div class="row g-4">
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="text" required placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="tel" maxlength="11" required
+                                    placeholder="Mobile Number">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="email" required placeholder="Email Id">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="number" placeholder="BVN Number">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="number" placeholder="NIN">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div>
+                                <select class="form-control">
+                                    <option value="" disabled selected>Gender</option>
+                                    <option value=""> Select </option>
+                                    <option value="Male"> Male </option>
+                                    <option value="Female"> Female
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="date" placeholder="Date of Birth">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="text" placeholder="Outlet Address">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="text" placeholder="Outlet Name">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <input class="form-control" type="text" placeholder="Outlet City">
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <select class="form-control">
+                                    <option value="" disabled selected>Shop Type
+                                    </option>
+                                    <option value=""> Select </option>
+                                    <option value="REDSHOP"> REDSHOP
+                                    </option>
+                                    <option value="MINISHOP"> MINISHOP
+                                    </option>
+                                    <option value="KIOSK"> KIOSK </option>
+                                    <option value="MBO"> MBO </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <select class="form-control">
+                                    <option value="" disabled selected>Region</option>
+                                    <option value=""> Select </option>
+                                    <option value="Lagos"> Lagos </option>
+                                    <option value="West"> West </option>
+                                    <option value="South East"> South East
+                                    </option>
+                                    <option value="South South"> South
+                                        South </option>
+                                    <option value="North east"> North east
+                                    </option>
+                                    <option value="North west"> North west
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div>
+                                <select class="form-control">
+                                    <option value="" disabled selected> State </option>
+                                    <option value=""> Select </option>
+                                    <option value="Abia"> Abia </option>
+                                    <option value="Adamawa"> Adamawa
+                                    </option>
+                                    <option value="Akwa Ibom"> Akwa Ibom
+                                    </option>
+                                    <option value="Anambra"> Anambra
+                                    </option>
+                                    <option value="Bauchi"> Bauchi
+                                    </option>
+                                    <option value="Bayelsa"> Bayelsa
+                                    </option>
+                                    <option value="Benue"> Benue </option>
+                                    <option value="Borno"> Borno </option>
+                                    <option value="Cross river"> Cross
+                                        river </option>
+                                    <option value="Delta"> Delta </option>
+                                    <option value="Ebonyi"> Ebonyi
+                                    </option>
+                                    <option value="Edo"> Edo </option>
+                                    <option value="Ekiti"> Ekiti </option>
+                                    <option value="Enugu"> Enugu </option>
+                                    <option value="FCT"> FCT </option>
+                                    <option value="Gombe"> Gombe </option>
+                                    <option value="Imo"> Imo </option>
+                                    <option value="Jigawa"> Jigawa
+                                    </option>
+                                    <option value="Kaduna"> Kaduna
+                                    </option>
+                                    <option value="Kano"> Kano </option>
+                                    <option value="Katsina"> Katsina
+                                    </option>
+                                    <option value="Kebbi"> Kebbi </option>
+                                    <option value="Kogi"> Kogi </option>
+                                    <option value="Kwara"> Kwara </option>
+                                    <option value="Lagos Island"> Lagos
+                                        Island </option>
+                                    <option value="Lagos Boundary"> Lagos
+                                        Boundary </option>
+                                    <option value="Lagos mainland"> Lagos
+                                        mainland </option>
+                                    <option value="Nasawara"> Nasawara
+                                    </option>
+                                    <option value="Niger"> Niger </option>
+                                    <option value="Ogun"> Ogun </option>
+                                    <option value="Ondo"> Ondo </option>
+                                    <option value="Osun"> Osun </option>
+                                    <option value="Oyo"> Oyo </option>
+                                    <option value="Plateau"> Plateau </option>
+                                    <option value="Rivers"> Rivers </option>
+                                    <option value="Sokoto"> Sokoto </option>
+                                    <option value="Taraba"> Taraba </option>
+                                    <option value="Yobe"> Yobe </option>
+                                    <option value="Zamfara"> Zamfara </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div>
+                                <h6>Upload Utility Bill</h6>
+                                <p>Upload anyone from the following -
+                                    Electricity Bill, Water Bill, Rent Agreement, Bank Statement
+                                </p>
+                                <div>
+                                    <label for="file"><img src="./assets/images/Icon/upload.svg" alt="upload-logo"
+                                            style="height: 1rem;width: 1rem;"> Upload Now
+                                        <input type="file" placeholder="Upload Now ">
+                                    </label>
+                                </div>
+                                <p>(Appropriate Formats -
+                                    Png, Jpg, Jpeg, Pdf, Max size of a document 10MB per file)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="form-control">Submit</button>
+                </form>
+                </div>
+            </article>
+        </section>
+        <footer class="footer-sec mt-5">
+            <section class=" container pt-5 pb-4">
+                <div class="row d-flex">
+                    <div class="col-6 col-lg-3">
+                        <img src="./assets/images/logo-white.svg" alt="blck SmarCash" style="width: 80%;">
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <p class="pb-2">PRIVACY</p>
+                        <h6 class="text-white">Privacy Policy</h6>
+                        <h6 class="text-white">Terms and conditions</h6>
+                        <p class="pt-4">SOCIAL MEDIA</p>
+                        <div class="d-flex">
+                            <img src="./assets/images/Icon/fb.svg" alt="facebook"
+                                style="height: 10%;width: 8%; margin-right: 1rem;">
+                            <img src="./assets/images/Icon/twitter.svg" alt="twitter"
+                                style="height: 10%;width: 8%; margin-right: 1rem;">
+                            <img src="./assets/images/Icon/insta_white.svg" alt="instagram"
+                                style="height: 10%;width: 8%; ">
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <p class="pb-2">GET HELP</p>
+                        <h6 class="text-white">FAQs</h6>
+                        <h6 class="text-white">Find an agent</h6>
+                    </div>
+                    <div class="col-8 col-lg-4">
+                        <p class="pb-2">CONTACT US</p>
+                        <div class="d-flex align-items-center"><img src="./assets/images/Icon/call.svg" alt="phone"
+                                style="height: 10%;width: 5%; margin-right: 0.5rem;">
+                            <h6 class="text-white">09125-939-939</h6>
+                        </div>
+                        <div class="d-flex align-items-center"><img src="./assets/images/Icon/email.svg" alt="email"
+                                style="height: 10%;width: 5%; margin-right: 0.5rem;">
+                            <h6 class="text-white">customerservice@smartcashpsb.ng</h6>
+                        </div>
+
+                        <p class="pt-4">STAY IN TOUCH</p>
+                        <div class="d-flex">
+                            <input type="email" value="Email Address" class="me-2 bg-dark border-0 outline-none">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center ">
+                    <p class="col-12 col-lg-10 mx-auto mt-4">Providing digital tools for financial services with you in
+                        mind, fashioned to accelerate financial inclusion and make banking easier</p>
+                </div>
+                <div style="height: 0.05rem; width: 100%; margin-top: rem; background-color: gray"></div>
+                <div class="text-center">
+                    <p class="col-10 col-lg-7 mx-auto mt-3 mb-2">Smartcash Payment Service Bank LTD. Is a subsidiary of
+                        Airtel Africa PLC. All right reserved.</p>
+                </div>
+            </section>
+            <div
+                class="cookies fixed-bottom bg-white d-flex align-items-center justify-content-center pt-3 pb-3 d-none">
+                <p class="mt-2 me-2">This website uses cookies and third-party services to improve your browsing
+                    experience and analyze website traffic.</p>
+                <input type="submit" value="Accept & Continue" id="cookies-terms">
+            </div>
+        </footer>
+    </main>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
